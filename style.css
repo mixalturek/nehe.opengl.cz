@@ -1,0 +1,116 @@
+body
+{
+	background-color: black;
+	color: white;
+	font-family: Verdana, "Bitstream Vera Sans", Geneva, sans-serif;
+	font-size: 10pt;
+	text-align: justify;
+	line-height: 1.6em;
+}
+
+#header		{ background: transparent url("images/website/logo.jpg") no-repeat; height: 180px; margin: 0em 5em 0em 1em; }
+#sidebar	{ margin: 0em 3em 0em 3em; width: 11em; display: inline; float: left; }
+#page		{ margin: 0em 3em 3em 18em; }
+#footer		{ text-align: center; margin-top: 2em; padding: 3px; line-height: 1.2em; border-top: 1px solid gray; clear: both; }
+#footer:hover	{ border-top: 1px solid white; }
+
+#header_text	{ padding-top: 3em; margin-left: 650px; text-align: left; }
+#header_link	{ color: white; text-decoration: none; }
+
+#sidebar .group			{ text-align: left; }
+#sidebar .group div.title	{ border-bottom: 1px solid gray; font-weight: bold; }
+#sidebar .clr			{ clear: both; height: 20px; }
+#sidebar .group .rectangles	{ }
+#sidebar .group .rectangles a	{ padding: 0.3em; }
+#sidebar .group ul		{ list-style-type: none; margin: 0px; padding: 0px; margin-bottom: 1em; }
+
+#footer div, #footer p	{ width: 50%; text-align: left; margin: auto; }
+#footer p		{ margin-top: 0.3em; }
+
+
+/****************************************************************************/
+
+div		{ display: block; }
+p		{ margin-bottom: 1em; }
+div.img, div.okolo_img	{ border: none; }
+div.img, div.okolo_img	{ font-style: italic; text-align: center; margin: 20px; }
+code		{ text-align: left; }
+h1		{ font-size: 150%; text-align: left; margin-bottom: 1em; margin-top: 0px; line-height: 1.4em; }
+h2, h3, h4	{ text-align: left; margin: 1em 0em 0em 0em; }
+
+a, .m			{ color: #66B5FF; text-decoration: none; }
+a:hover, .m:hover	{ text-decoration: underline; }
+.blank:after		{ content: " " url("images/website/blank.gif"); }
+.down:after		{ content: " " url("images/website/down.gif"); }
+.active			{ color: red; }
+.active:hover		{ text-decoration: none; }
+
+/*
+a.blank:hover:after	{ content: " " url(img/website/blank_hover.gif); }
+a.down:hover:after	{ content: " " url(img/website/down_hover.gif); }
+*/
+
+/*
+table		{ margin-top: 1.5em; max-width: 100%; }
+tr		{ background-color: rgb(255,230,245); }
+tr:hover	{ background-color: rgb(255,210,225); }
+th, td		{ padding-left: 10px; padding-right: 10px;  }
+th		{ border: 1px solid rgb(250,200,200); }
+*/
+
+
+/****************************************************************************/
+
+pre, code, .src, .src0, .src1, .src2, .src3, .src4, .src5, .src6, .src7, .src8, .src9, .src10, .kom, .key
+{
+	font-family: Clean, "Courier New", Courier, monospace;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+	line-height: 1.1em;
+	background-color: rgb(40,40,40);
+}
+
+.src { padding-bottom: 1em;}
+.kom { color: #4c9d4c; }
+.key { color: rgb(108, 164, 209); }
+.src0 { padding-left: 1em; }
+.src1 { padding-left: 3em; }
+.src2 { padding-left: 5em; }
+.src3 { padding-left: 7em; }
+.src4 { padding-left: 9em; }
+.src5 { padding-left: 11em; }
+.src6 { padding-left: 13em; }
+.src7 { padding-left: 15em; }
+.src8 { padding-left: 17em; }
+.src9 { padding-left: 19em; }
+.src10 { padding-left: 21em; }
+
+
+/****************************************************************************/
+
+.warn		{ color: red; font-weight: bold; }
+.todo		{ color: red; font-weight: bold; }
+.invalid_link	{ color: green; }
+.todo:before	{ content: "TODO: "; }
+.cleaner	{ clear: both; }
+
+
+/****************************************************************************/
+
+.object			{ border: 1px solid gray; margin-bottom: 20px; padding: 1em; }
+.object:hover		{ border: 1px solid white; }
+.object h3		{ margin-top: 0px; }
+.img_prog		{ float: right; }
+.date			{ float: right; }
+
+.nehe_img_sm		{ width: 72px; height: 54px; float: right; }
+.nehe_img		{ width: 648px; max-width: 100%; height: 507px; }
+
+.nadpis_clanku		{ font-style: italic; }
+.okolni_lekce		{ text-align: center; }
+.autor			{ text-align: right; }
+
+.google_ads		{ float: right; padding: 0em 0em 0em 2em; background-color: black; }
+.google_search		{ margin-bottom: 3px; }
